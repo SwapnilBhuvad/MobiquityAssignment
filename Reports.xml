@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" ts="1616276955108" s="true" lb="TEST ITERATION START" rc="200" rm="OK" sby="0">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@712799d2
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jmv_SAME_USER=true
+
+</responseData>
+</sample>
+<httpSample t="141" it="0" ts="1616276955110" s="true" lb="GET Users" rc="200" rm="OK" sby="156">
+  <assertionResult>
+    <name>Validate User</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 573
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1616015306
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;23d-EKDCRFg7oh6G4KjjoWlynBpL2AY&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 12298
+Accept-Ranges: bytes
+cf-request-id: 08f336386500000b53078d9000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=jCntyCsbunxZ0yM51WjIkYdbHkGxOj38fW1b%2BosvaMMup2%2F5ZKTFBd7RDe5RriJwY2mu6SyogBuyQPUP0%2B7erhRdG5fbeyiZWzv4%2FrJgoa1RDI%2BfDaHLVg54fDyq&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263a38430b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;id&quot;: 9,
+    &quot;name&quot;: &quot;Glenna Reichert&quot;,
+    &quot;username&quot;: &quot;Delphine&quot;,
+    &quot;email&quot;: &quot;Chaim_McDermott@dana.io&quot;,
+    &quot;address&quot;: {
+      &quot;street&quot;: &quot;Dayna Park&quot;,
+      &quot;suite&quot;: &quot;Suite 449&quot;,
+      &quot;city&quot;: &quot;Bartholomebury&quot;,
+      &quot;zipcode&quot;: &quot;76495-3109&quot;,
+      &quot;geo&quot;: {
+        &quot;lat&quot;: &quot;24.6463&quot;,
+        &quot;lng&quot;: &quot;-168.8889&quot;
+      }
+    },
+    &quot;phone&quot;: &quot;(775)976-6794 x41206&quot;,
+    &quot;website&quot;: &quot;conrad.com&quot;,
+    &quot;company&quot;: {
+      &quot;name&quot;: &quot;Yost and Sons&quot;,
+      &quot;catchPhrase&quot;: &quot;Switchable contextually-based project&quot;,
+      &quot;bs&quot;: &quot;aggregate real-time technologies&quot;
+    }
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/users?username=Delphine</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" ts="1616276955254" s="true" lb="GET Posts" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1616016266
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;aa1-7w0ImWAnFGRWG4ZRQUECVBaSqRo&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9428
+cf-request-id: 08f336388500000b5339259000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=UTO2fRX0AP9ZQfu5zyMa51Q3y3hJPmUm4Bi2Kmw76YTMM%2BlnAvPOfn7Hfhe1wcJ9dNI6iukQGgnlzsYF09WWTUCKY%2FeAQoHRgI8QTbSvnJou1ovOtLK0v%2F6sYDJr&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263a68c90b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 81,
+    &quot;title&quot;: &quot;tempora rem veritatis voluptas quo dolores vero&quot;,
+    &quot;body&quot;: &quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;
+  },
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 82,
+    &quot;title&quot;: &quot;laudantium voluptate suscipit sunt enim enim&quot;,
+    &quot;body&quot;: &quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;
+  },
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 83,
+    &quot;title&quot;: &quot;odit et voluptates doloribus alias odio et&quot;,
+    &quot;body&quot;: &quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;
+  },
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 84,
+    &quot;title&quot;: &quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,
+    &quot;body&quot;: &quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;
+  },
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 85,
+    &quot;title&quot;: &quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,
+    &quot;body&quot;: &quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;
+  },
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 86,
+    &quot;title&quot;: &quot;placeat quia et porro iste&quot;,
+    &quot;body&quot;: &quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;
+  },
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 87,
+    &quot;title&quot;: &quot;nostrum quis quasi placeat&quot;,
+    &quot;body&quot;: &quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;
+  },
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 88,
+    &quot;title&quot;: &quot;sapiente omnis fugit eos&quot;,
+    &quot;body&quot;: &quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;
+  },
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 89,
+    &quot;title&quot;: &quot;sint soluta et vel magnam aut ut sed qui&quot;,
+    &quot;body&quot;: &quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;
+  },
+  {
+    &quot;userId&quot;: 9,
+    &quot;id&quot;: 90,
+    &quot;title&quot;: &quot;ad iusto omnis odit dolor voluptatibus&quot;,
+    &quot;body&quot;: &quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts?userId=9</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" ts="1616276955301" s="true" lb="GET Comments for ID=81" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 389
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1616105366
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;185-Qxouhb2dEQXkTmPJOthOWMMqtBc&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9427
+Accept-Ranges: bytes
+cf-request-id: 08f33638b400000b53dea49000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=irPX%2FnPfmluzZ%2FTqfh0NwQYhIIAIqQSBEhvxWyUz%2BItuMgMUwnEi2whJS%2Fb%2BVoiuiWV0X26xGi9MhwEXOTD%2BXu0fj3jJ1Vt%2FDpg%2B0P8bmgDzKso9q5w0%2FwS%2BI%2Bpr&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263ab97d0b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 17,
+    &quot;id&quot;: 81,
+    &quot;name&quot;: &quot;aut non consequuntur dignissimos voluptatibus dolorem earum recusandae dolorem&quot;,
+    &quot;email&quot;: &quot;Newton.Kertzmann@anjali.io&quot;,
+    &quot;body&quot;: &quot;illum et voluptatem quis repellendus quidem repellat\nreprehenderit voluptas consequatur mollitia\npraesentium nisi quo quod et\noccaecati repellendus illo eius harum explicabo doloribus officia&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=81</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955336" s="true" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=81
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=0
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=2
+email_1=Newton.Kertzmann@anjali.io
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Newton.Kertzmann@anjali.io&quot;,
+email_1_g1=Newton.Kertzmann@anjali.io
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:17,&quot;id&quot;:81,&quot;name&quot;:&quot;aut non consequuntur dignissimos voluptatibus dolorem earum recusandae dolorem&quot;,&quot;email&quot;:&quot;Newton.Kertzmann@anjali.io&quot;,&quot;body&quot;:&quot;illum et voluptatem quis repellendus quidem repellat\nreprehenderit voluptas consequatur mollitia\npraesentium nisi quo quod et\noccaecati repellendus illo eius harum explicabo doloribus officia&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="23" it="0" ts="1616276955348" s="true" lb="GET Comments for ID=82" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 344
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1616106086
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;158-MxhrKyfKgLWP6nUX4LX8CzUMSis&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9426
+Accept-Ranges: bytes
+cf-request-id: 08f33638e200000b53f4b5c000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=DKEITC3ZI1cu7gAgH%2B5rFWDbRsHxptFcplEUPhEAJppXuygXTh8HBsk3855NwvZX0TpUPuC70BuJXCgPp9EdgIQLkncHNtQlQ9w7EXsknQyhnkzKlucWQ%2FZgbKQB&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263b0a5d0b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 17,
+    &quot;id&quot;: 82,
+    &quot;name&quot;: &quot;ea est non dolorum iste nihil est&quot;,
+    &quot;email&quot;: &quot;Caleb_Herzog@rosamond.net&quot;,
+    &quot;body&quot;: &quot;officiis dolorem voluptas aliquid eveniet tempora qui\nea temporibus labore accusamus sint\nut sunt necessitatibus voluptatum animi cumque\nat reiciendis voluptatem iure aliquid et qui dolores et&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=82</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955372" s="true" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=82
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=1
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=3
+email_1=Caleb_Herzog@rosamond.net
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Caleb_Herzog@rosamond.net&quot;,
+email_1_g1=Caleb_Herzog@rosamond.net
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:17,&quot;id&quot;:82,&quot;name&quot;:&quot;ea est non dolorum iste nihil est&quot;,&quot;email&quot;:&quot;Caleb_Herzog@rosamond.net&quot;,&quot;body&quot;:&quot;officiis dolorem voluptas aliquid eveniet tempora qui\nea temporibus labore accusamus sint\nut sunt necessitatibus voluptatum animi cumque\nat reiciendis voluptatem iure aliquid et qui dolores et&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="30" it="0" ts="1616276955386" s="true" lb="GET Comments for ID=83" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 325
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1616106086
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;145-c0TWo20vFWnrLBym1yyDfiUVOTE&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9426
+Accept-Ranges: bytes
+cf-request-id: 08f336390800000b5325935000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=VD0yrzDiZP2bNGqJEq%2F%2Bvt%2F0aXbiRJi%2BsaIelUDp4%2BLTy%2Flcn1qfXYqXQypxXrW0LxGuvSZ85gFWa2sMExbUlFa1%2FQM8oirAsx6jwURQ1a8HcdwrnM4DALuz6bxS&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263b3aef0b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 17,
+    &quot;id&quot;: 83,
+    &quot;name&quot;: &quot;nihil qui accusamus ratione et molestias et minus&quot;,
+    &quot;email&quot;: &quot;Sage_Mueller@candace.net&quot;,
+    &quot;body&quot;: &quot;et consequatur voluptates magnam fugit sunt repellendus nihil earum\nofficiis aut cupiditate\net distinctio laboriosam\nmolestiae sunt dolor explicabo recusandae&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=83</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955416" s="true" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=83
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=2
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=4
+email_1=Sage_Mueller@candace.net
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Sage_Mueller@candace.net&quot;,
+email_1_g1=Sage_Mueller@candace.net
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:17,&quot;id&quot;:83,&quot;name&quot;:&quot;nihil qui accusamus ratione et molestias et minus&quot;,&quot;email&quot;:&quot;Sage_Mueller@candace.net&quot;,&quot;body&quot;:&quot;et consequatur voluptates magnam fugit sunt repellendus nihil earum\nofficiis aut cupiditate\net distinctio laboriosam\nmolestiae sunt dolor explicabo recusandae&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="20" it="0" ts="1616276955422" s="true" lb="GET Comments for ID=84" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 329
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 997
+X-Ratelimit-Reset: 1616106086
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;149-wP6QufYQuWt6rwVRKs2bPO/ys6A&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9426
+Accept-Ranges: bytes
+cf-request-id: 08f336392e00000b53158ac000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=WMR7CJD8XLjccH3X1i67BtWy0tI3B%2FwSJwmMrEyloSk57fAp9V%2BNc82TGKjxbF83ICfATtJVIgsMkoCULWDYJ%2FfEcT7oIrs5Z90DD53Wrbl9MZe%2F01f97%2BU5KdBB&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263b7bae0b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 17,
+    &quot;id&quot;: 84,
+    &quot;name&quot;: &quot;quia voluptatibus magnam voluptatem optio vel perspiciatis&quot;,
+    &quot;email&quot;: &quot;Bernie.Bergnaum@lue.com&quot;,
+    &quot;body&quot;: &quot;ratione ut magni voluptas\nexplicabo natus quia consequatur nostrum aut\nomnis enim in qui illum\naut atque laboriosam aliquid blanditiis quisquam et laborum&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=84</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955443" s="true" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=84
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=3
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=5
+email_1=Bernie.Bergnaum@lue.com
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Bernie.Bergnaum@lue.com&quot;,
+email_1_g1=Bernie.Bergnaum@lue.com
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:17,&quot;id&quot;:84,&quot;name&quot;:&quot;quia voluptatibus magnam voluptatem optio vel perspiciatis&quot;,&quot;email&quot;:&quot;Bernie.Bergnaum@lue.com&quot;,&quot;body&quot;:&quot;ratione ut magni voluptas\nexplicabo natus quia consequatur nostrum aut\nomnis enim in qui illum\naut atque laboriosam aliquid blanditiis quisquam et laborum&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="27" it="0" ts="1616276955449" s="true" lb="GET Comments for ID=85" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 339
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 996
+X-Ratelimit-Reset: 1616106086
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;153-4FfX01YEJ25Y3vlQTlIgDtDR7AU&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9425
+Accept-Ranges: bytes
+cf-request-id: 08f336394700000b533f9be000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=55xKLftSG6%2Bz3e89%2B1IY%2FJmjuMGMlHE231BupZ6lLOzhACPLYFudH0ASM4%2BRv6%2FKR3DlTw06zcC9X3pUD6%2FfBB1xf4Luc9HP%2BLZPuZ5haZ8Y8imsMP795APv7OhL&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263bac130b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 17,
+    &quot;id&quot;: 85,
+    &quot;name&quot;: &quot;non voluptas cum est quis aut consectetur nam&quot;,
+    &quot;email&quot;: &quot;Alexzander_Davis@eduardo.name&quot;,
+    &quot;body&quot;: &quot;quisquam incidunt dolores sint qui doloribus provident\nvel cupiditate deleniti alias voluptatem placeat ad\nut dolorem illum unde iure quis libero neque\nea et distinctio id&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=85</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955477" s="false" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: variable(email_1) expected to match /^\w+[\w-\.]*\@\w+((-\w+)|(\w*))\.[a-z]{2,3}$/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=85
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=4
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=6
+email_1=Alexzander_Davis@eduardo.name
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Alexzander_Davis@eduardo.name&quot;,
+email_1_g1=Alexzander_Davis@eduardo.name
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:17,&quot;id&quot;:85,&quot;name&quot;:&quot;non voluptas cum est quis aut consectetur nam&quot;,&quot;email&quot;:&quot;Alexzander_Davis@eduardo.name&quot;,&quot;body&quot;:&quot;quisquam incidunt dolores sint qui doloribus provident\nvel cupiditate deleniti alias voluptatem placeat ad\nut dolorem illum unde iure quis libero neque\nea et distinctio id&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="48" it="0" ts="1616276955483" s="true" lb="GET Comments for ID=86" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 322
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 995
+X-Ratelimit-Reset: 1616106086
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;142-OhP3SisIvTI3KTohfCCW0wL8mA0&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9425
+Accept-Ranges: bytes
+cf-request-id: 08f336397200000b53273b6000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=XKyQooDQD1cxuSSOGcebhDSAj0S%2BVpJ8RFsI0ZS28ah2EdfRZmHteY12kDlkHTtFjOyiJMM0acG%2FbFwpy9tun3c5r7sBWc4xfUG%2BZ%2BMUXY2FllG5xkFlUWP4yvPM&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263bdcbd0b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 18,
+    &quot;id&quot;: 86,
+    &quot;name&quot;: &quot;suscipit est sunt vel illum sint&quot;,
+    &quot;email&quot;: &quot;Jacquelyn@krista.info&quot;,
+    &quot;body&quot;: &quot;eum culpa debitis sint\neaque quia magni laudantium qui neque voluptas\nvoluptatem qui molestiae vel earum est ratione excepturi\nsit aut explicabo et repudiandae ut perspiciatis&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=86</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955533" s="false" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: variable(email_1) expected to match /^\w+[\w-\.]*\@\w+((-\w+)|(\w*))\.[a-z]{2,3}$/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=86
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=5
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=7
+email_1=Jacquelyn@krista.info
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Jacquelyn@krista.info&quot;,
+email_1_g1=Jacquelyn@krista.info
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:86,&quot;name&quot;:&quot;suscipit est sunt vel illum sint&quot;,&quot;email&quot;:&quot;Jacquelyn@krista.info&quot;,&quot;body&quot;:&quot;eum culpa debitis sint\neaque quia magni laudantium qui neque voluptas\nvoluptatem qui molestiae vel earum est ratione excepturi\nsit aut explicabo et repudiandae ut perspiciatis&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="22" it="0" ts="1616276955547" s="true" lb="GET Comments for ID=87" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 316
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 994
+X-Ratelimit-Reset: 1616106086
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;13c-Iitwnmxd30+61fBCDu2fXqO6inU&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9425
+Accept-Ranges: bytes
+cf-request-id: 08f33639ad00000b53f6932000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=K2M2DBxRKQEE%2BXffy9VIzym8z44ywbQnLKsqTFWw1F9xbgvmJGq1KKvkeDsuKlp0UmhU5TLt3dxK4u23S9QIKb6z5NmHMuI%2FS4UyyFWIdyXC0dNZ6kqAfVLRPGzz&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263c4e1b0b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 18,
+    &quot;id&quot;: 87,
+    &quot;name&quot;: &quot;dolor asperiores autem et omnis quasi nobis&quot;,
+    &quot;email&quot;: &quot;Grover_Volkman@coty.tv&quot;,
+    &quot;body&quot;: &quot;assumenda corporis architecto repudiandae omnis qui et odit\nperferendis velit enim\net quia reiciendis sint\nquia voluptas quam deserunt facilis harum eligendi&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=87</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955570" s="true" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=87
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=6
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=8
+email_1=Grover_Volkman@coty.tv
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Grover_Volkman@coty.tv&quot;,
+email_1_g1=Grover_Volkman@coty.tv
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:87,&quot;name&quot;:&quot;dolor asperiores autem et omnis quasi nobis&quot;,&quot;email&quot;:&quot;Grover_Volkman@coty.tv&quot;,&quot;body&quot;:&quot;assumenda corporis architecto repudiandae omnis qui et odit\nperferendis velit enim\net quia reiciendis sint\nquia voluptas quam deserunt facilis harum eligendi&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="21" it="0" ts="1616276955586" s="true" lb="GET Comments for ID=88" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 297
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1616105486
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;129-znTlglA0iHe0qWduzdRQCC1cdbk&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9424
+Accept-Ranges: bytes
+cf-request-id: 08f33639d000000b53e132c000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=yBLSvKjoa5P2VGJGCfRZuEPGFe17qTl8cef60bkRQQ9FTlZ%2BssRkgsFRHigaAAJdkkmgznUhC7hAz53fTzyLSa5toA7qSFPsDrDYi9B6yKu0DlNlXpkkGRNkvtjB&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263c7ec20b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 18,
+    &quot;id&quot;: 88,
+    &quot;name&quot;: &quot;officiis aperiam odit sint est non&quot;,
+    &quot;email&quot;: &quot;Jovanny@abigale.ca&quot;,
+    &quot;body&quot;: &quot;laudantium corrupti atque exercitationem quae enim et veniam dicta\nautem perspiciatis sit dolores\nminima consectetur tenetur iste facere\namet est neque&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=88</java.net.URL>
+</httpSample>
+<sample t="1" it="0" ts="1616276955608" s="true" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=88
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=7
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=9
+email_1=Jovanny@abigale.ca
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Jovanny@abigale.ca&quot;,
+email_1_g1=Jovanny@abigale.ca
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:88,&quot;name&quot;:&quot;officiis aperiam odit sint est non&quot;,&quot;email&quot;:&quot;Jovanny@abigale.ca&quot;,&quot;body&quot;:&quot;laudantium corrupti atque exercitationem quae enim et veniam dicta\nautem perspiciatis sit dolores\nminima consectetur tenetur iste facere\namet est neque&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="21" it="0" ts="1616276955629" s="true" lb="GET Comments for ID=89" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 339
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 993
+X-Ratelimit-Reset: 1616106086
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;153-mUuoYqnhFasCT5bOJ7Pwrj5X8Pw&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9424
+Accept-Ranges: bytes
+cf-request-id: 08f33639fa00000b5339b2d000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=xQwVjgFhrOtYbf2xc3nfU0Epp7Dwtk%2BUBeQ9zrYPXsKHf4suzLU7tXabnsdK0S9JPPl4yUTRbbF1JEburQd3jBtIIfVH6XiLwvOeRsT7rMhf58maE81murx4OLG7&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263ccf500b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 18,
+    &quot;id&quot;: 89,
+    &quot;name&quot;: &quot;in voluptatum nostrum voluptas iure nisi rerum est placeat&quot;,
+    &quot;email&quot;: &quot;Isac_Schmeler@barton.com&quot;,
+    &quot;body&quot;: &quot;quibusdam rerum quia nostrum culpa\nculpa est natus impedit quo rem voluptate quos\nrerum culpa aut ut consectetur\nsunt esse laudantium voluptatibus cupiditate rerum&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=89</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955651" s="true" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=89
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=8
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=10
+email_1=Isac_Schmeler@barton.com
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Isac_Schmeler@barton.com&quot;,
+email_1_g1=Isac_Schmeler@barton.com
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:89,&quot;name&quot;:&quot;in voluptatum nostrum voluptas iure nisi rerum est placeat&quot;,&quot;email&quot;:&quot;Isac_Schmeler@barton.com&quot;,&quot;body&quot;:&quot;quibusdam rerum quia nostrum culpa\nculpa est natus impedit quo rem voluptate quos\nrerum culpa aut ut consectetur\nsunt esse laudantium voluptatibus cupiditate rerum&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="28" it="0" ts="1616276955669" s="true" lb="GET Comments for ID=90" rc="200" rm="OK" sby="147">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 367
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 992
+X-Ratelimit-Reset: 1616106086
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;16f-qdwmNrhgRjTz5Q6bkq7npHV2Oj0&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 9424
+Accept-Ranges: bytes
+cf-request-id: 08f3363a2a00000b5338bd6000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=Sg2i8RnZ8FdUlpTRH%2BKSmBVK5AJ2cxYYB6XBIRWMIvMyW0bSsPW%2F4Mc6MlT5E7IncLA884gLJXHqWFrRu6REVWnvtB5lKZzFyKJERYV%2BBCZppzDnanrns2YE%2FoOj&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263d0feb0b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[
+  {
+    &quot;postId&quot;: 18,
+    &quot;id&quot;: 90,
+    &quot;name&quot;: &quot;eum voluptas dolores molestias odio amet repellendus&quot;,
+    &quot;email&quot;: &quot;Sandy.Erdman@sabina.info&quot;,
+    &quot;body&quot;: &quot;vitae cupiditate excepturi eum veniam laudantium aspernatur blanditiis\naspernatur quia ut assumenda et magni enim magnam\nin voluptate tempora\nnon qui voluptatem reprehenderit porro qui voluptatibus&quot;
+  }
+]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/comments?id=90</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955699" s="false" lb="Assertions" rc="200" rm="OK" sby="0">
+  <assertionResult>
+    <name>Validate Email Against Regex1</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: variable(email_1) expected to match /^\w+[\w-\.]*\@\w+((-\w+)|(\w*))\.[a-z]{2,3}$/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Email Against Regex2</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Validate Each User returns only 1 Id</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=true
+Comment=90
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@77a50f29
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=9
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=11
+email_1=Sandy.Erdman@sabina.info
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Sandy.Erdman@sabina.info&quot;,
+email_1_g1=Sandy.Erdman@sabina.info
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:90,&quot;name&quot;:&quot;eum voluptas dolores molestias odio amet repellendus&quot;,&quot;email&quot;:&quot;Sandy.Erdman@sabina.info&quot;,&quot;body&quot;:&quot;vitae cupiditate excepturi eum veniam laudantium aspernatur blanditiis\naspernatur quia ut assumenda et magni enim magnam\nin voluptate tempora\nnon qui voluptatem reprehenderit porro qui voluptatibus&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<sample t="0" it="0" ts="1616276955707" s="true" lb="TEST ITERATION STOP" rc="200" rm="OK" sby="0">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=false
+Comment=90
+JMeterThread.last_sample_ok=false
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@60217d93
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=200
+TESTSTART.MS=1616276954822
+Username=Delphine
+__jm__Thread Group__idx=0
+__jm__While Controller__idx=0
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=11
+email_1=Sandy.Erdman@sabina.info
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Sandy.Erdman@sabina.info&quot;,
+email_1_g1=Sandy.Erdman@sabina.info
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:90,&quot;name&quot;:&quot;eum voluptas dolores molestias odio amet repellendus&quot;,&quot;email&quot;:&quot;Sandy.Erdman@sabina.info&quot;,&quot;body&quot;:&quot;vitae cupiditate excepturi eum veniam laudantium aspernatur blanditiis\naspernatur quia ut assumenda et magni enim magnam\nin voluptate tempora\nnon qui voluptatem reprehenderit porro qui voluptatibus&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<sample t="1" it="0" ts="1616276955707" s="true" lb="TEST ITERATION START" rc="200" rm="OK" sby="0">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=false
+Comment=90
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@712799d2
+NoOfIds_1=9
+NoOfIds_matchNr=1
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=400
+TESTSTART.MS=1616276954822
+Username=XYZ
+__jm__Thread Group__idx=1
+__jm__While Controller__idx=0
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId_1=81
+commentId_10=90
+commentId_2=82
+commentId_3=83
+commentId_4=84
+commentId_5=85
+commentId_6=86
+commentId_7=87
+commentId_8=88
+commentId_9=89
+commentId_matchNr=10
+counter=11
+email_1=Sandy.Erdman@sabina.info
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Sandy.Erdman@sabina.info&quot;,
+email_1_g1=Sandy.Erdman@sabina.info
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:90,&quot;name&quot;:&quot;eum voluptas dolores molestias odio amet repellendus&quot;,&quot;email&quot;:&quot;Sandy.Erdman@sabina.info&quot;,&quot;body&quot;:&quot;vitae cupiditate excepturi eum veniam laudantium aspernatur blanditiis\naspernatur quia ut assumenda et magni enim magnam\nin voluptate tempora\nnon qui voluptatem reprehenderit porro qui voluptatibus&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[{&quot;userId&quot;:9,&quot;id&quot;:81,&quot;title&quot;:&quot;tempora rem veritatis voluptas quo dolores vero&quot;,&quot;body&quot;:&quot;facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut&quot;},{&quot;userId&quot;:9,&quot;id&quot;:82,&quot;title&quot;:&quot;laudantium voluptate suscipit sunt enim enim&quot;,&quot;body&quot;:&quot;ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic&quot;},{&quot;userId&quot;:9,&quot;id&quot;:83,&quot;title&quot;:&quot;odit et voluptates doloribus alias odio et&quot;,&quot;body&quot;:&quot;est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam&quot;},{&quot;userId&quot;:9,&quot;id&quot;:84,&quot;title&quot;:&quot;optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut&quot;,&quot;body&quot;:&quot;sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:85,&quot;title&quot;:&quot;dolore veritatis porro provident adipisci blanditiis et sunt&quot;,&quot;body&quot;:&quot;similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione&quot;},{&quot;userId&quot;:9,&quot;id&quot;:86,&quot;title&quot;:&quot;placeat quia et porro iste&quot;,&quot;body&quot;:&quot;quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio&quot;},{&quot;userId&quot;:9,&quot;id&quot;:87,&quot;title&quot;:&quot;nostrum quis quasi placeat&quot;,&quot;body&quot;:&quot;eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:88,&quot;title&quot;:&quot;sapiente omnis fugit eos&quot;,&quot;body&quot;:&quot;consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed&quot;},{&quot;userId&quot;:9,&quot;id&quot;:89,&quot;title&quot;:&quot;sint soluta et vel magnam aut ut sed qui&quot;,&quot;body&quot;:&quot;repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est&quot;},{&quot;userId&quot;:9,&quot;id&quot;:90,&quot;title&quot;:&quot;ad iusto omnis odit dolor voluptatibus&quot;,&quot;body&quot;:&quot;minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis&quot;}]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[{&quot;id&quot;:9,&quot;name&quot;:&quot;Glenna Reichert&quot;,&quot;username&quot;:&quot;Delphine&quot;,&quot;email&quot;:&quot;Chaim_McDermott@dana.io&quot;,&quot;address&quot;:{&quot;street&quot;:&quot;Dayna Park&quot;,&quot;suite&quot;:&quot;Suite 449&quot;,&quot;city&quot;:&quot;Bartholomebury&quot;,&quot;zipcode&quot;:&quot;76495-3109&quot;,&quot;geo&quot;:{&quot;lat&quot;:&quot;24.6463&quot;,&quot;lng&quot;:&quot;-168.8889&quot;}},&quot;phone&quot;:&quot;(775)976-6794 x41206&quot;,&quot;website&quot;:&quot;conrad.com&quot;,&quot;company&quot;:{&quot;name&quot;:&quot;Yost and Sons&quot;,&quot;catchPhrase&quot;:&quot;Switchable contextually-based project&quot;,&quot;bs&quot;:&quot;aggregate real-time technologies&quot;}}]
+getUsersResponse_matchNr=1
+userId=9
+userId_g=1
+userId_g0=&quot;id&quot;: 9,
+userId_g1=9
+
+</responseData>
+</sample>
+<httpSample t="20" it="0" ts="1616276955708" s="false" lb="GET Users" rc="200" rm="OK" sby="151">
+  <assertionResult>
+    <name>Validate User</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;username&quot;: &quot;XYZ&quot;/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[2]]]00
+
+****** comparison: [[[4]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1616275719
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1237
+Accept-Ranges: bytes
+cf-request-id: 08f3363a4d00000b533bac0000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=eieoOYBIQUg8rxWjaHx2EKwygJR8QzGBzFYjlYo9vMjIUXYVmrh%2Bh736IYRKcDCT2qqeh0jsUrjsHz5%2FU8smRBvnnvRi9P4rz6Czxwp0So4JXJyPJACJpfGSDw9h&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263d486c0b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/users?username=XYZ</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" ts="1616276955729" s="false" lb="GET Posts" rc="200" rm="OK" sby="146">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[2]]]00
+
+****** comparison: [[[4]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1616276139
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 821
+Accept-Ranges: bytes
+cf-request-id: 08f3363a6200000b530790f000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=CoUbngDhD8k2fmEeZRabGgDxoOuJJLZELkqrkP0ir%2FaI7sgylxniFbBgAX%2BpFXH6OBqmIPrdS2mXkMzSw7vGaijWaRLRuomG9cuUxxgYOCj7ffgvICuxNK3E%2Bw8g&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263d68a70b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts?userId=</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955758" s="true" lb="TEST ITERATION STOP" rc="200" rm="OK" sby="0">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=false
+Comment=90
+JMeterThread.last_sample_ok=false
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@60217d93
+NoOfIds=
+NoOfIds_matchNr=0
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=400
+TESTSTART.MS=1616276954822
+Username=XYZ
+__jm__Thread Group__idx=1
+__jm__While Controller__idx=0
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId=
+commentId_matchNr=0
+counter=1
+email_1=Sandy.Erdman@sabina.info
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Sandy.Erdman@sabina.info&quot;,
+email_1_g1=Sandy.Erdman@sabina.info
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:90,&quot;name&quot;:&quot;eum voluptas dolores molestias odio amet repellendus&quot;,&quot;email&quot;:&quot;Sandy.Erdman@sabina.info&quot;,&quot;body&quot;:&quot;vitae cupiditate excepturi eum veniam laudantium aspernatur blanditiis\naspernatur quia ut assumenda et magni enim magnam\nin voluptate tempora\nnon qui voluptatem reprehenderit porro qui voluptatibus&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[]
+getUsersResponse_matchNr=1
+userId=
+
+</responseData>
+</sample>
+<sample t="0" it="0" ts="1616276955759" s="true" lb="TEST ITERATION START" rc="200" rm="OK" sby="0">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=false
+Comment=90
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@712799d2
+NoOfIds=
+NoOfIds_matchNr=0
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=500
+TESTSTART.MS=1616276954822
+Username=%01%20
+__jm__Thread Group__idx=2
+__jm__While Controller__idx=0
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId=
+commentId_matchNr=0
+counter=1
+email_1=Sandy.Erdman@sabina.info
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Sandy.Erdman@sabina.info&quot;,
+email_1_g1=Sandy.Erdman@sabina.info
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:90,&quot;name&quot;:&quot;eum voluptas dolores molestias odio amet repellendus&quot;,&quot;email&quot;:&quot;Sandy.Erdman@sabina.info&quot;,&quot;body&quot;:&quot;vitae cupiditate excepturi eum veniam laudantium aspernatur blanditiis\naspernatur quia ut assumenda et magni enim magnam\nin voluptate tempora\nnon qui voluptatem reprehenderit porro qui voluptatibus&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[]
+getUsersResponse_matchNr=1
+userId=
+
+</responseData>
+</sample>
+<httpSample t="20" it="0" ts="1616276955759" s="false" lb="GET Users" rc="200" rm="OK" sby="154">
+  <assertionResult>
+    <name>Validate User</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /&quot;username&quot;: &quot;%01%20&quot;/</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[2]]]00
+
+****** comparison: [[[5]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1616275839
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 1170
+Accept-Ranges: bytes
+cf-request-id: 08f3363a8000000b5307912000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=Ma4SYa3lP91147DNrYmW2KmcYbWe1FAhPVnDKlagL%2Bm9CGjN3jhJqz4KN6AZU6O%2B4O7jFHQfCJ3n8B%2FNAcYJwQHkaR4hivLy2Ry27kFfnbkHeF2BQzWsiNTF6FpO&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263d99060b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/users?username=%01%20</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" ts="1616276955780" s="false" lb="GET Posts" rc="200" rm="OK" sby="146">
+  <assertionResult>
+    <name>HTTP Status code</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: code expected to equal /
+
+****** received  : [[[2]]]00
+
+****** comparison: [[[5]]]00
+
+/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Sat, 20 Mar 2021 21:49:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Set-Cookie: __cfduid=da27715e154e4315a357410eac9254ad21616276955; expires=Mon, 19-Apr-21 21:49:15 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1616276139
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/&quot;2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w&quot;
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 821
+Accept-Ranges: bytes
+cf-request-id: 08f3363a9300000b53262a6000000001
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=mRlSJQrbNAIA%2BUcXbNR3ebtJQIvt%2FZCaTJI8usnRH%2BVff550v632paigmBFRZ%2Bjd0o0pGp2sPvv2fEollrJzfBMtIC09uvr7gumnxendZooEw3LzZN%2Ftovw%2Fz5kV&quot;}],&quot;group&quot;:&quot;cf-nel&quot;}
+NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 6332263db93d0b53-AMS
+alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_281)
+</requestHeader>
+  <responseData class="java.lang.String">[]</responseData>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts?userId=</java.net.URL>
+</httpSample>
+<sample t="0" it="0" ts="1616276955806" s="true" lb="TEST ITERATION STOP" rc="200" rm="OK" sby="0">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+=false
+Comment=90
+JMeterThread.last_sample_ok=false
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@60217d93
+NoOfIds=
+NoOfIds_matchNr=0
+START.HMS=201059
+START.MS=1616267459795
+START.YMD=20210320
+StatusCode=500
+TESTSTART.MS=1616276954822
+Username=%01%20
+__jm__Thread Group__idx=2
+__jm__While Controller__idx=0
+__jmeter.U_T__=Thread Group 1-1
+__jmv_SAME_USER=true
+commentId=
+commentId_matchNr=0
+counter=1
+email_1=Sandy.Erdman@sabina.info
+email_1_g=1
+email_1_g0=&quot;email&quot;: &quot;Sandy.Erdman@sabina.info&quot;,
+email_1_g1=Sandy.Erdman@sabina.info
+email_matchNr=1
+getCommentsResponse_1=[{&quot;postId&quot;:18,&quot;id&quot;:90,&quot;name&quot;:&quot;eum voluptas dolores molestias odio amet repellendus&quot;,&quot;email&quot;:&quot;Sandy.Erdman@sabina.info&quot;,&quot;body&quot;:&quot;vitae cupiditate excepturi eum veniam laudantium aspernatur blanditiis\naspernatur quia ut assumenda et magni enim magnam\nin voluptate tempora\nnon qui voluptatem reprehenderit porro qui voluptatibus&quot;}]
+getCommentsResponse_matchNr=1
+getPostsResponse_1=[]
+getPostsResponse_matchNr=1
+getUsersResponse_1=[]
+getUsersResponse_matchNr=1
+userId=
+
+</responseData>
+</sample>
+
+</testResults>
